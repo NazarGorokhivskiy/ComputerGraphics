@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DeactivatePickUp : MonoBehaviour {
     void Start() {
-        Invoke("Deactivate", Random.Range(3f, 6f));
+        Invoke("Deactivate", Random.Range(6f, 10f));
     }
 
     void Deactivate() {
